@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`=== SCREEN === HOME --- HomeScreen Render and is Equal 1`] = `
+<Fragment>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "height": "50%",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 16,
+          "margin": 10,
+        }
+      }
+    >
+      Adicionat novo ToDo
+    </Text>
+    <TextInput
+      allowFontScaling={true}
+      editable={true}
+      onChangeText={[Function]}
+      placeholder="O Que deseja fazer?"
+      rejectResponderTermination={true}
+      style={
+        Object {
+          "borderWidth": 1,
+          "margin": 10,
+        }
+      }
+      underlineColorAndroid="transparent"
+      value=""
+    />
+    <Button
+      onPress={[Function]}
+      title="Adicionar"
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "height": "50%",
+      }
+    }
+  >
+    <ListTodo
+      dataTodo={
+        Array [
+          Object {
+            "id": 1,
+            "selected": true,
+            "text": "Configurar o Jest",
+          },
+          Object {
+            "id": 1,
+            "selected": false,
+            "text": "Fazer os testes",
+          },
+        ]
+      }
+      markTodo={[Function]}
+      removeTodo={[Function]}
+    />
+  </View>
+</Fragment>
+`;
