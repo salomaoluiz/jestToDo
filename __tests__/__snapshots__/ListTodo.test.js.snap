@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`=== SCREEN === HOME --- COMPONENTS -- ListTodo Render Item - Render Item when is not selected  1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "justifyContent": "space-around",
+      "margin": 10,
+      "width": 200,
+    }
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    onPress={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Icon
+      allowFontScaling={false}
+      color="#000"
+      name="checkbox-blank-outline"
+      size={20}
+    />
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 24,
+            "textAlign": "center",
+          },
+          undefined,
+        ]
+      }
+    >
+      Fazer os testes
+    </Text>
+  </TouchableOpacity>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    onPress={[Function]}
+  >
+    <Icon
+      allowFontScaling={false}
+      color="#000"
+      name="delete"
+      size={20}
+    />
+  </TouchableOpacity>
+</View>
+`;
+
+exports[`=== SCREEN === HOME --- COMPONENTS -- ListTodo Render Item when is selected  1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "justifyContent": "space-around",
+      "margin": 10,
+      "width": 200,
+    }
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    onPress={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Icon
+      allowFontScaling={false}
+      color="#000"
+      name="checkbox-marked"
+      size={20}
+    />
+    <Text
+      style={
+        Array [
+          Object {
+            "fontSize": 24,
+            "textAlign": "center",
+          },
+          Object {
+            "color": "#cecece",
+            "textDecorationLine": "line-through",
+          },
+        ]
+      }
+    >
+      Configurar o Jest
+    </Text>
+  </TouchableOpacity>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    onPress={[Function]}
+  >
+    <Icon
+      allowFontScaling={false}
+      color="#000"
+      name="delete"
+      size={20}
+    />
+  </TouchableOpacity>
+</View>
+`;
+
+exports[`=== SCREEN === HOME --- COMPONENTS -- ListTodo Render and is Equal 1`] = `
+<FlatList
+  disableVirtualization={false}
+  horizontal={false}
+  initialNumToRender={10}
+  keyExtractor={[Function]}
+  maxToRenderPerBatch={10}
+  numColumns={1}
+  onEndReachedThreshold={2}
+  refreshing={false}
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  updateCellsBatchingPeriod={50}
+  windowSize={21}
+/>
+`;
