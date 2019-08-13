@@ -1,5 +1,5 @@
-import TodoReducer from "../src/screen/home/redux/reducers";
-import * as types from "../src/screen/home/redux/types";
+import TodoReducer from "../../../home/redux/reducers";
+import * as types from "../../../home/redux/types";
 
 describe("=== SCREEN === HOME --- REDUX -- Reducers", () => {
   //#region Return Default State

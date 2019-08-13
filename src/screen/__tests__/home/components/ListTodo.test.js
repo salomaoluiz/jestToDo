@@ -1,4 +1,4 @@
-import ListTodo from "../src/screen/home/components/listTodo";
+import ListTodo from "../../../home/components/listTodo";
 import React from "react";
 import { shallow } from "enzyme";
 

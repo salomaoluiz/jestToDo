@@ -1,5 +1,5 @@
 import React from "react";
-import HomeScreen from "../src/screen/home";
+import HomeScreen from "../../home";
 import { shallow } from "enzyme";
 import configureStore from "redux-mock-store";
 import { Alert } from "react-native";

@@ -2,8 +2,8 @@ import {
     addTodo,
     markTodo,
     removeTodo,
-  } from "../src/screen/home/redux/actions";
-  import * as types from "../src/screen/home/redux/types";
+  } from "../../../home/redux/actions";
+  import * as types from "../../../home/redux/types";
   
   describe("=== SCREEN === HOME --- REDUX -- Actions", () => {
     //#region AddTodo return the value equals
